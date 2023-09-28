@@ -36,11 +36,6 @@
 
     -->
 
-    <!--
-
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
-
-    -->
 
     <!--<h1>Assignment 01 - To Be Completed</h1>-->
     <header>
@@ -61,6 +56,7 @@
           <label for="password">password:</label>
           <input id="password" type="text"/>
         </fieldset>
+
       </form>
     </header>
     <main>
@@ -73,7 +69,7 @@
 
       <section>
         <h2>Who are we?</h2>
-        <p>We here at CatHub have long ago discovered that the true purpose of the internet is to share cat photos with each other.</p>
+        <p>We here at PinCat have long ago discovered that the true purpose of the internet is to share cat photos with each other.</p>
       </section>
 
       <section>
@@ -83,30 +79,55 @@
       
       <section>
         <h2>Frequently asked questions</h2>
-        <p></p>
+        <dl>
+          <dt>Are you allowed to upload photos other than cats?</dt>
+          <dd>No, any photo that is uploaded will be scrutinised by our proffesional moderator </dd>
+
+          <dt>Is you moderater just one dude in his parents basement?</dt>
+          <dd>I am not at liberty to say</dd>
+
+          <dt>Can we upload videos of cats?</dt>
+          <dd>No, only .png or .jpeg, videos cause our server to catch fire</dd>
+        </dl>
       </section>
 
-      <form>
-        <fieldset>
-          <legend>Create Account</legend>
-          <label for="email">Email:</label>
-          <input id="email" type="email" placeholder="MyEmail@Email.com"/>
+      <section>
+        <form>
+          <fieldset>
+            <legend>Create Account</legend>
 
-          <label for="createUserName">Username:</label>
-          <input  id="createUserName" type="text" required/>
+  
+            <label for="createUserName">Username:</label>
+            <input  id="createUserName" type="text" required/>
+  
+            <label for="createPassword">Password:</label>
+            <input id="createPassword" type="text" minlength="10" maxlength="15" required/>
+  
+            <label for="createPasswordConfirm">Confirm Password:</label>
+            <input id="createPasswordConfirm" type="text" minlength="10" maxlength="15" required/>
+  
 
-          <label for="createPassword">Password:</label>
-          <input id="createPassword" type="text" minlength="10" maxlength="15" required/>
+            
+          </fieldset>
 
-          
-        </fieldset>
-        <input type="submit" value="Create Account"/>
-      </form>
-
+          <fieldset>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="MyEmail@Email.com"/>
+  
+            <lable for="newsLetter">I would like to recive news letters to my email:</lable>
+            <input type="checkbox" id="newsletter" value="yes"/>
+  
+          </fieldset>
+          <input type="submit" value="Create Account"/>
+        </form>
+  
+      </section>
+      
 
 
     </main>
     <footer>
+      <h3>PinCat</h3>
       <nav>
         <ul>
           <li><a href="#">Youtube</a></li>
@@ -115,7 +136,7 @@
         </ul>
         
       </nav>
-
+      <p>&copy; 2023 Harry Tromans</p>
     </footer>
 
 
