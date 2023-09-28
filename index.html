@@ -49,27 +49,38 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Gallery</a></li>
-          <li><a href="#">Login</a></li>
+          <li><a href="#">Create Account</a></li>
         </ul>
       </nav>
+      <form>
+        <fieldset>
+          <legend>Login</legend>
+          <label for="userName">username:</label>
+          <input id="userName" type="text"/>
 
+          <label for="password">password:</label>
+          <input id="password" type="text"/>
+        </fieldset>
+      </form>
     </header>
     <main>
-
-      <h1></h1>
-      <img src="./images/catPhoto1.jpg" alt="Photo of a Cat"/>
-      <p>Lorem Ipsum</p>
+      <section>
+        <h1>PinCat</h1>
+        <img src="./images/catPhoto1.jpg" alt="Photo of a Cat"/>
+        <p>Come! Phost cat photos on the internet, its fun!</p>
+        <a href="#">Post Now!</a>
+      </section>
 
       <section>
-        <h2>Product description</h2>
-        <p></p>
+        <h2>Who are we?</h2>
+        <p>We here at CatHub have long ago discovered that the true purpose of the internet is to share cat photos with each other.</p>
       </section>
+
       <section>
         <h2>Important Data</h2>
         <p></p>
       </section>
       
-
       <section>
         <h2>Frequently asked questions</h2>
         <p></p>
@@ -77,17 +88,34 @@
 
       <form>
         <fieldset>
+          <legend>Create Account</legend>
+          <label for="email">Email:</label>
+          <input id="email" type="email" placeholder="MyEmail@Email.com"/>
+
+          <label for="createUserName">Username:</label>
+          <input  id="createUserName" type="text" required/>
+
+          <label for="createPassword">Password:</label>
+          <input id="createPassword" type="text" minlength="10" maxlength="15" required/>
+
           
         </fieldset>
+        <input type="submit" value="Create Account"/>
       </form>
 
 
 
     </main>
     <footer>
-      <li><a href="#">PlaceHolder</a></li>
-      <li><a href="#">PlaceHolder</a></li>
-      <li><a href="#">PlaceHolder</a></li>
+      <nav>
+        <ul>
+          <li><a href="#">Youtube</a></li>
+          <li><a href="#">A better website</a></li>
+          <li><a href="#">Out Legal team</a></li>
+        </ul>
+        
+      </nav>
+
     </footer>
 
 
