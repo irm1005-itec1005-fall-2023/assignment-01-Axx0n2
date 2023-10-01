@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+    <!-- PINCAT -->
+    <title>Assignment 01 - Completed - Harry Tromans 101196352</title>
 
     <meta charset="UTF-8" />
 
@@ -31,8 +31,8 @@
 
       LIST ANY CITATIONS HERE
 
-        * A
-        * B
+        * https://blog.purestorage.com/perspectives/how-much-of-the-worlds-data-is-cat-content/#:~:text=So%20how%20much%20unstructured%20cat,be%20more%20than%206.5%20billion.
+        * https://www.pexels.com/search/cat/
 
     -->
 
@@ -40,10 +40,11 @@
     <!--<h1>Assignment 01 - To Be Completed</h1>-->
     <header>
       <h2>PinCat</h2>
+      <img src="./images/CatLogo.png" alt="Site logo" style="width:200px"/>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Gallery</a></li>
+          <li><a href="https://www.pexels.com/search/cat/">Gallery</a></li>
           <li><a href="#">Create Account</a></li>
         </ul>
       </nav>
@@ -54,15 +55,16 @@
           <input id="userName" type="text"/>
 
           <label for="password">password:</label>
-          <input id="password" type="text"/>
+          <input id="password" type="password"/>
         </fieldset>
+        <input type="submit" value="Login"/>
 
       </form>
     </header>
     <main>
       <section>
         <h1>PinCat</h1>
-        <img src="./images/catPhoto1.jpg" alt="Photo of a Cat"/>
+        <img src="./images/catPhoto1.jpg" alt="Photo of a cat"/>
         <p>Come! Phost cat photos on the internet, its fun!</p>
         <a href="#">Post Now!</a>
       </section>
@@ -70,16 +72,16 @@
       <section>
         <h2>Who are we?</h2>
         <p>We here at PinCat have long ago discovered that the true purpose of the internet is to share cat photos with each other.</p>
+        <img src="./images/catPhoto2.jpg" atl="Photo of a cat"/>
       </section>
 
       <section>
         <h2>Important Data</h2>
-        <p></p>
         <table>
           <caption>Number of Cat photos on the internet per year</caption>
           <thead>
             <tr>
-              <th>Month</th>
+              <th>Year</th>
               <th>Number of Photos</th>
             </tr>
           </thead>
@@ -108,10 +110,18 @@
               <td>1996</td>
               <td>100</td>
             </tr>
+            <tr>
+              <td>2023</td>
+              <td>6.5 Billion</td>
+            </tr>
+            <tr>
+              <td>2123</td>
+              <td>0</td>
+            </tr>
           </tbody>
         </table>
 
-
+        <img src="./images/catPhoto3.jpg" alt="Photo of a cat"/>
       </section>
       
       <section>
@@ -126,6 +136,7 @@
           <dt>Can we upload videos of cats?</dt>
           <dd>No, only .png or .jpeg, videos cause our server to catch fire.</dd>
         </dl>
+        <img src="./images/catPhoto4.jpg" alt="Photo of a stupid cat"/>
       </section>
 
       <section>
@@ -133,29 +144,32 @@
           <fieldset>
             <legend>Create Account</legend>
 
-  
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="MyEmail@Email.com" required/>
+            
             <label for="createUserName">Username:</label>
             <input  id="createUserName" type="text" required/>
   
             <label for="createPassword">Password:</label>
-            <input id="createPassword" type="text" minlength="10" maxlength="15" required/>
+            <input id="createPassword" type="password" minlength="10" maxlength="15" required/>
   
             <label for="createPasswordConfirm">Confirm Password:</label>
-            <input id="createPasswordConfirm" type="text" minlength="10" maxlength="15" required/>
+            <input id="createPasswordConfirm" type="password" minlength="10" maxlength="15" required/>
   
 
             
           </fieldset>
 
           <fieldset>
-            <label for="email">Email:</label>
-            <input id="email" type="email" placeholder="MyEmail@Email.com"/>
+
   
             <lable for="newsLetter">I would like to recive news letters to my email:</lable>
             <input type="checkbox" id="newsletter" value="yes"/>
   
           </fieldset>
-          <input type="submit" value="Create Account"/>
+          <fieldset>
+            <input type="submit" value="Create Account"/>
+          </fieldset>
         </form>
   
       </section>
@@ -164,16 +178,23 @@
 
     </main>
     <footer>
+      <img src="./images/CatLogo.png" alt="Site logo" style="width:200px"/>
       <h3>PinCat</h3>
       <nav>
         <ul>
-          <li><a href="#">Youtube</a></li>
+          <li><a href="https://www.youtube.com/">Youtube</a></li>
           <li><a href="#">A better website</a></li>
-          <li><a href="#">Out Legal team</a></li>
-        </ul>
-        
+          <li><a href="#">Our Legal team</a></li>
+        </ul>  
       </nav>
-      <p>&copy; 2023 Harry Tromans</p>
+      <section>
+      <h4>Contact us:</h4>
+        <dl>
+          <dt>666-666-6666</dt>
+          <dt>pincat@Email.com</dt>
+        </dl>
+      </section>
+      <p>&copy; Harry Tromans 2023</p>
     </footer>
 
 
