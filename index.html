@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+    <!-- PINCAT -->
+    <title>Assignment 01 - Completed - Harry Tromans 101196352</title>
 
-    <!-- Set the charset we're using to UTF-8 -->
     <meta charset="UTF-8" />
 
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Specifies the document mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
+
     <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
+
       body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2rem;
         line-height: 1.6;
       }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
+
       img {
         width: 100%;
         display: block;
@@ -44,17 +31,173 @@
 
       LIST ANY CITATIONS HERE
 
-        * A
-        * B
+        * https://blog.purestorage.com/perspectives/how-much-of-the-worlds-data-is-cat-content/#:~:text=So%20how%20much%20unstructured%20cat,be%20more%20than%206.5%20billion.
+        * https://www.pexels.com/search/cat/
 
     -->
 
-    <!--
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <!--<h1>Assignment 01 - To Be Completed</h1>-->
+    <header>
+      <h2>PinCat</h2>
+      <img src="./images/CatLogo.png" alt="Site logo" style="width:200px"/>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="https://www.pexels.com/search/cat/">Gallery</a></li>
+          <li><a href="#">Create Account</a></li>
+        </ul>
+      </nav>
+      <form>
+        <fieldset>
+          <legend>Login</legend>
+          <label for="userName">username:</label>
+          <input id="userName" type="text"/>
 
-    -->
+          <label for="password">password:</label>
+          <input id="password" type="password"/>
+        </fieldset>
+        <input type="submit" value="Login"/>
 
-    <h1>Assignment 01 - To Be Completed</h1>
+      </form>
+    </header>
+    <main>
+      <section>
+        <h1>PinCat</h1>
+        <img src="./images/catPhoto1.jpg" alt="Photo of a cat"/>
+        <p>Come! Post cat photos on the internet, its fun!</p>
+        <a href="#">Post Now!</a>
+      </section>
+
+      <section>
+        <h2>Who are we?</h2>
+        <p>We here at PinCat have long ago discovered that the true purpose of the internet is to share cat photos with each other.</p>
+        <img src="./images/catPhoto2.jpg" alt="Photo of a cat"/>
+      </section>
+
+      <section>
+        <h2>Important Data</h2>
+        <table>
+          <caption>Number of Cat photos on the internet per year</caption>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Number of Photos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1991</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>1992</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1993</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>1994</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>1995</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>1996</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>2023</td>
+              <td>6.5 Billion</td>
+            </tr>
+            <tr>
+              <td>2123</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <img src="./images/catPhoto3.jpg" alt="Photo of a cat"/>
+      </section>
+      
+      <section>
+        <h2>Frequently asked questions</h2>
+        <dl>
+          <dt>Are you allowed to upload photos other than cats?</dt>
+          <dd>No, any photo that is uploaded will be scrutinised by our proffesional moderator, if it is found to be in violation, it will be removed. </dd>
+
+          <dt>Is the moderater just one dude in his parents basement?</dt>
+          <dd>I am not at liberty to say.</dd>
+
+          <dt>Can we upload videos of cats?</dt>
+          <dd>No, only .png or .jpeg, videos cause our server to catch fire.</dd>
+        </dl>
+        <img src="./images/catPhoto4.jpg" alt="Photo of a stupid cat"/>
+      </section>
+      
+      <section>
+        <h3>Create an account!</h3>
+        <form>
+          <fieldset>
+            <legend>Create Account</legend>
+
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="MyEmail@Email.com" required/>
+            
+            <label for="createUserName">Username:</label>
+            <input  id="createUserName" type="text" required/>
+  
+            <label for="createPassword">Password:</label>
+            <input id="createPassword" type="password" minlength="10" maxlength="15" required/>
+  
+            <label for="createPasswordConfirm">Confirm Password:</label>
+            <input id="createPasswordConfirm" type="password" minlength="10" maxlength="15" required/>
+  
+
+            
+          </fieldset>
+
+          <fieldset>
+
+  
+            <label for="newsLetter">I would like to recive news letters to my email:</label>
+            <input type="checkbox" id="newsLetter" value="yes"/>
+  
+          </fieldset>
+          <fieldset>
+            <input type="submit" value="Create Account"/>
+          </fieldset>
+        </form>
+  
+      </section>
+      
+
+
+    </main>
+    <footer>
+      <img src="./images/CatLogo.png" alt="Site logo" style="width:200px"/>
+      <h3>PinCat</h3>
+      <nav>
+        <ul>
+          <li><a href="https://www.youtube.com/">Youtube</a></li>
+          <li><a href="#">A better website</a></li>
+          <li><a href="#">Our Legal team</a></li>
+        </ul>  
+      </nav>
+      <section>
+      <h4>Contact us:</h4>
+        <ul>
+          <li>666-666-6666</li>
+          <li>pincat@Email.com</li>
+        </ul>
+      </section>
+      <p>&copy; Harry Tromans 2023</p>
+    </footer>
+
+
   </body>
 </html>
